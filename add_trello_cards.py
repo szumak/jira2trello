@@ -26,7 +26,7 @@ def add_trello_card( jira_issue, name ):
        'key':      config['trello']['key'],
        'token':    config['trello']['token'],
        'idList':   config['trello']['idList'],
-       'idLabels': config['trello']['idLabels']',
+       'idLabels': config['trello']['idLabels'],
        'name':     name,
        'desc':     description
     }
@@ -43,7 +43,7 @@ def add_fast_card( name, description ):
        'key':      config['trello']['key'],
        'token':    config['trello']['token'],
        'idList':   config['trello']['idList'],
-       'idLabels': config['trello']['idLabels']',
+       'idLabels': config['trello']['idLabels'],
        'name':     name,
        'desc':     description
     }
